@@ -1,0 +1,6 @@
+L;1004;Max Mustermann;Fr. Nov 1 2013;Sparkasse 32423 234;Hauptstr 11 7687 Darmstadt;Aktiv
+L;1002;Hans Petermann;Fr. Nov 1 2013;DiBa 234 546743;Hauptstr 123 2134 Darmstadt;Aktiv
+f;1003;Alex Frei;So. Dez 1 2013;DiBa 234 123;   ;Aktiv;Mi. Jan 1 2014;Befriedigend
+B;1008;Sebastian Deisler;Fr. Nov 1 2013;  ;   ;Aktiv;Do. Dez 5 2013
+F;1006;Helmut Beständig;Fr. Mär 5 2010;Volksbank 2346 234;Marktstr 123  ;Aktiv
+P;1005;Lustig Peter;Fr. Nov 1 2013;Volksbank 2346 234;Marktstr 123  ;Aktiv;Mi. Jan 1 2014

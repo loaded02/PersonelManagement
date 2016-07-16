@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Personalverwaltung_GUI</class>
+ <widget class="QMainWindow" name="Personalverwaltung_GUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>594</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Personalverwaltung</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>361</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>&lt;&lt;Bitte waehlen Sie eine Funktion aus dem Menu!&gt;&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>594</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPersonalverwaltung">
+    <property name="title">
+     <string>Personalverwaltung</string>
+    </property>
+    <addaction name="actionMitarbeiter_anlegen"/>
+    <addaction name="actionMitarbeiter_aendern"/>
+    <addaction name="actionMitarbeiter_Austritt"/>
+    <addaction name="actionProgramm_beenden"/>
+   </widget>
+   <widget class="QMenu" name="menuAuswertungen">
+    <property name="title">
+     <string>Auswertungen</string>
+    </property>
+    <addaction name="actionPersonal_uebersicht"/>
+    <addaction name="actionListe_speichern"/>
+   </widget>
+   <addaction name="menuPersonalverwaltung"/>
+   <addaction name="menuAuswertungen"/>
+  </widget>
+  <action name="actionMitarbeiter_anlegen">
+   <property name="text">
+    <string>Mitarbeiter anlegen</string>
+   </property>
+  </action>
+  <action name="actionMitarbeiter_aendern">
+   <property name="text">
+    <string>Mitarbeiter aendern</string>
+   </property>
+   <property name="toolTip">
+    <string>Mitarbeiter aendern</string>
+   </property>
+  </action>
+  <action name="actionMitarbeiter_Austritt">
+   <property name="text">
+    <string>Mitarbeiter Austritt</string>
+   </property>
+  </action>
+  <action name="actionPersonal_uebersicht">
+   <property name="text">
+    <string>Personaluebersicht</string>
+   </property>
+   <property name="toolTip">
+    <string>Personaluebersicht</string>
+   </property>
+  </action>
+  <action name="actionProgramm_beenden">
+   <property name="text">
+    <string>Programm beenden</string>
+   </property>
+  </action>
+  <action name="actionListe_speichern">
+   <property name="text">
+    <string>Liste speichern</string>
+   </property>
+  </action>
+  <action name="actionMitarbeiter_suchen">
+   <property name="text">
+    <string>Mitarbeiter suchen</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
